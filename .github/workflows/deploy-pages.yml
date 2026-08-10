@@ -28,7 +28,7 @@ jobs:
       - name: Build static site
         run: |
           mkdir -p _site
-          cp index.html styles.css script.js i18n.js robots.txt _site/
+          cp index.html styles.css script.js i18n.js robots.txt sitemap.xml _site/
           cp -R assets _site/assets
 
       - name: Upload GitHub Pages artifact
